@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.gourp11-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+
+    .gourp11-container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        .gourp-container-box-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+
+            p:nth-child(1) {
+                color: rgb(242, 190, 34);
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+
+            p:nth-child(2) {
+                color: rgb(24, 18, 30);
+                font-family: 'Nunito Sans', sans-serif;
+                font-size: 32px;
+                font-weight: 800;
+                line-height: 120%;
+                letter-spacing: 0%;
+                text-align: center;
+            }
+        }
+
+        .gourp-container-card {
+            width: 1300px;
+            
+            .gourp-container-box-card {
+                // display: flex;
+                // align-items: center;
+                // flex-wrap: wrap;
+                display: flex;
+                flex-wrap: wrap;
+
+                .card {
+                    margin: 12px 10px;
+                    width: 580px;
+                    height: 312px;
+                    border-radius: 10px;
+                    background: rgb(253, 253, 253);
+                    transition: 0.3s linear;
+                    padding: 16px;
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+
+                    .card-text {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        gap: 24px;
+
+                        .card-text-title {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: start;
+                            gap: 24px;
+                            p:nth-child(1) {
+                                width: 294px;
+                                color: rgb(24, 18, 30);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 24px;
+                                font-weight: 700;
+                                line-height: 32px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+
+                            p:nth-child(2) {
+                                width: 294px;
+                                color: rgb(24, 18, 30);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                        }
+                        .card-theDate{
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            width: 100%;
+                            p:nth-child(1){
+                                color: rgb(242, 190, 34);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 20px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                            p:nth-child(2){
+                                color: rgb(26, 62, 62);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 700;
+                                line-height: 20px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+
+                .card:hover {
+                    box-shadow: 0px 0px 15px 0px rgba(24, 18, 30, 0.12);
+                    background: rgb(253, 253, 253);
+                }
+            }
+            .gourp-button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 50px;
+                button{
+                    width: 220px;
+                    height: 52px;
+                    border-radius: 4px;
+                    background: rgb(26, 62, 62);
+                    border: none;
+                    color: rgb(253, 253, 253);
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 1.2%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,140 @@
+.rectangle7-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 771px;
+    background: rgb(243, 245, 244);
+
+    .rectangle7-container-box {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+
+        .rectangle7-container-left {
+            display: flex;
+            align-items: start;
+            flex-direction: column;
+            gap: 40px;
+
+            .rectangle7-container-left-title {
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                gap: 40px;
+
+                .title {
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    p:nth-child(1) {
+                        color: rgb(242, 190, 34);
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+
+                    p:nth-child(2) {
+                        color: rgb(24, 18, 30);
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-size: 32px;
+                        font-weight: 800;
+                        line-height: 120%;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+
+                .top-text {
+                    p {
+                        width: 580px;
+                        color: rgb(24, 18, 30);
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 150%;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+            }
+
+            .rectangle-text-map {
+                .rectangle-text-map-box {
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    gap: 40px;
+
+                    .text-map {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+
+                        .text-map-p {
+                            p:nth-child(1) {
+                                color: rgb(24, 18, 30);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 18px;
+                                font-weight: 700;
+                                line-height: 20px;
+                                letter-spacing: 1.2%;
+                                text-align: left;
+                            }
+
+                            p:nth-child(2) {
+                                width: 514px;
+                                color: rgb(0, 0, 0);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 20px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .rectangle-button-text {
+                button {
+                    width: 236px;
+                    height: 52px;
+                    border-radius: 4px;
+                    background: rgb(26, 62, 62);
+                    color: rgb(253, 253, 253);
+                    font-family: 'Nunito Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 1.2%;
+                    text-align: center;
+                    border: none;
+                }
+            }
+        }
+
+        .rectangle-container-right {
+            .rectangle-container-right-box {
+                width: 600px;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: start;
+                justify-content: center;
+
+                img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 3px;
+                }
+            }
+        }
+    }
+}

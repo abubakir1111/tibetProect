@@ -1,0 +1,202 @@
+.footer-container {
+    width: 100%;
+    position: relative;
+    margin-top: 198px;
+    cursor: url(../assets/icon/Vector.png), pointer;
+
+    .footer-container-box {
+        background: rgb(26, 62, 62);
+        width: 100%;
+        height: 587px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .footer-text-container {
+            max-width: 1180px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            .footer-contact-container-phone {
+                display: flex;
+                align-items: start;
+                flex-direction: column;
+                gap: 80px;
+
+                .phone-container {
+                    display: flex;
+                    align-items: start;
+                    flex-direction: column;
+                    gap: 17px;
+
+                    p:nth-child(1) {
+                        color: rgb(243, 245, 244);
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+
+                    p:nth-child(2) {
+                        width: 456px;
+                        color: rgb(255, 255, 255);
+                        font-family: 'Nunito Sans', sans-serif;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: 0%;
+                        text-align: left;
+                    }
+                }
+
+                .info-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 32px;
+
+                    .info-text {
+                        display: flex;
+                        align-items: center;
+                        gap: 24px;
+
+                        p {
+                            color: rgb(255, 255, 255);
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            text-decoration-line: underline;
+                        }
+                    }
+
+                    .info-container-icon {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                    }
+                }
+            }
+
+            .footer-contact-container-nashi-uslugi-div {
+                display: flex;
+                gap: 120px;
+
+                .footer-contact-container-nashi-uslugi {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    gap: 20px;
+
+                    .footer-contact-container-nashi-title {
+                        p {
+                            color: rgb(243, 245, 244);
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-size: 20px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                    }
+
+                    .footer-contact-contaienr-text-map {
+                        display: flex;
+                        align-items: start;
+                        flex-direction: column;
+                        gap: 16px;
+
+                        .footer-contact-img {
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+
+                            .footer-contact-icon {
+                                background-image: url(../assets/icon/footer/Vector.png);
+                                width: 5.87px;
+                                transition: 0.3s linear;
+                                height: 10px;
+                            }
+
+                            p {
+                                width: 262.13px;
+                                color: rgb(253, 253, 253);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                transition: 0.3s linear;
+                            }
+
+                            p:hover {
+                                color: rgb(242, 190, 34);
+                                font-family: 'Nunito Sans', sans-serif;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18px;
+                                letter-spacing: 0%;
+                                text-align: left;
+                                text-decoration-line: underline;
+                            }
+                        }
+
+                        .footer-contact-img:hover {
+                            .footer-contact-icon {
+                                background-image: url(../assets/icon/footer/VectorIcon.png);
+                                width: 5.87px;  
+                                height: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .rectangle-div{
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+            position: absolute;
+            bottom: 0;
+            .rectangle-div-box{
+                    width: 100%;
+                    height: 66px;
+                    background: rgb(24, 18, 30);
+                    .rectangle-text{
+                        max-width: 1180px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin: 24px auto;
+                        p{
+                            color: rgb(255, 255, 255);
+                            font-family:'Nunito Sans', sans-serif;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                        }
+                        p:nth-child(2){
+                            color: rgb(255, 255, 255);
+                            font-family: 'Nunito Sans', sans-serif;
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            text-align: left;
+                            text-decoration-line: underline;
+                        }
+                    }
+            }
+        }
+    }
+}
